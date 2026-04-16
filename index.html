@@ -287,13 +287,13 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
 
   /* NAV */
   nav{padding:0 16px;height:56px}
-  .nav-logo img{height:28px}
+  .nav-logo img{height:56px}
   .nav-links .nav-link{display:none}
   .nav-cta{padding:7px 14px;font-size:13px}
 
   /* HERO */
   .hero{padding:90px 20px 60px;min-height:auto}
-  .hero img[alt="CodeApi"]{height:60px !important}
+  .hero img[alt="CodeApi"]{height:120px !important}
   .hero h1{font-size:clamp(32px,9vw,52px)}
   .hero p{font-size:15px;margin:16px auto 0}
   .hero-actions{gap:10px;margin-top:28px}
@@ -412,7 +412,7 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
 <!-- ==================== LANDING ==================== -->
 <div class="page active" id="landingPage">
   <nav>
-    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:36px;object-fit:contain;display:block;"></div>
+    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:72px;object-fit:contain;display:block;"></div>
     <div class="nav-links">
       <button class="nav-link" onclick="document.getElementById('featuresSection').scrollIntoView({behavior:'smooth'})">Características</button>
       <button class="nav-link" onclick="document.getElementById('pricingSection').scrollIntoView({behavior:'smooth'})">Precios</button>
@@ -423,7 +423,7 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
 
   <div class="hero">
     <div class="hero-bg"></div>
-    <img src="logo.png" alt="CodeApi" style="height:90px;object-fit:contain;margin-bottom:8px;">
+    <img src="logo.png" alt="CodeApi" style="height:180px;object-fit:contain;margin-bottom:8px;">
     <div class="hero-badge">✦ 15+ Modelos de IA · Una sola API</div>
     <h1>Todas tus <span>APIs de IA</span><br>en un solo lugar</h1>
     <p>Deja de administrar múltiples claves. Accede a GPT-4, Claude, Gemini, Mistral y más con una sola suscripción y un único endpoint.</p>
@@ -575,23 +575,23 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
   <div class="cta-section">
     <div class="cta-box">
       <div class="cta-glow"></div>
-      <img src="logo.png" alt="CodeApi" style="height:70px;object-fit:contain;margin-bottom:24px;display:block;margin-left:auto;margin-right:auto;"><h2>Comienza a construir<br>en minutos.</h2>
+      <img src="logo.png" alt="CodeApi" style="height:140px;object-fit:contain;margin-bottom:24px;display:block;margin-left:auto;margin-right:auto;"><h2>Comienza a construir<br>en minutos.</h2>
       <p>Únete a miles de desarrolladores y empresas que usan CodeApi para potenciar sus productos.</p>
       <button class="btn-primary" style="font-size:16px;padding:15px 36px" onclick="showPage('auth')">Crear cuenta gratis →</button>
     </div>
   </div>
-  <footer><p><img src="logo.png" alt="CodeApi" style="height:28px;vertical-align:middle;margin-bottom:4px;"><br>© 2025 CodeApi, Inc. · Privacidad · Términos · Estado · Documentación</p></footer>
+  <footer><p><img src="logo.png" alt="CodeApi" style="height:56px;vertical-align:middle;margin-bottom:4px;"><br>© 2025 CodeApi, Inc. · Privacidad · Términos · Estado · Documentación</p></footer>
 </div>
 
 <!-- ==================== AUTH ==================== -->
 <div class="page" id="authPage">
   <nav>
-    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:36px;object-fit:contain;display:block;"></div>
+    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:72px;object-fit:contain;display:block;"></div>
     <div class="nav-links"><button class="nav-link" onclick="showPage('landing')">← Volver</button></div>
   </nav>
   <div class="auth-page">
     <div class="auth-card fade-in">
-      <div class="auth-logo"><img src="logo.png" alt="CodeApi" style="height:36px;object-fit:contain;display:block;"></div>
+      <div class="auth-logo"><img src="logo.png" alt="CodeApi" style="height:72px;object-fit:contain;display:block;"></div>
       <div class="auth-tabs">
         <button class="auth-tab active" id="loginTab" onclick="switchAuthTab('login')">Iniciar sesión</button>
         <button class="auth-tab" id="registerTab" onclick="switchAuthTab('register')">Registrarse</button>
@@ -619,7 +619,7 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
 <!-- ==================== PLAN SELECT PAGE ==================== -->
 <div class="page" id="planSelectPage">
   <nav>
-    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:36px;object-fit:contain;display:block;"></div>
+    <div class="nav-logo" onclick="showPage('landing')"><img src="logo.png" alt="CodeApi" style="height:72px;object-fit:contain;display:block;"></div>
     <div class="nav-links">
       <span style="font-size:13px;color:var(--text2);font-family:var(--mono)" id="planSelectUserLabel"></span>
       <button class="nav-link" onclick="handleLogout()">Salir</button>
@@ -720,7 +720,7 @@ footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:v
 <!-- ==================== DASHBOARD ==================== -->
 <div class="page page-dashboard" id="dashPage">
   <aside class="dash-sidebar">
-    <div class="dash-logo"><img src="logo.png" alt="CodeApi" style="height:36px;object-fit:contain;display:block;"></div>
+    <div class="dash-logo"><img src="logo.png" alt="CodeApi" style="height:72px;object-fit:contain;display:block;"></div>
     <nav class="dash-nav">
       <button class="dash-nav-item active" onclick="showDashSection('overview',this)"><span class="dash-nav-icon">⊞</span>Overview</button>
       <button class="dash-nav-item" onclick="showDashSection('playground',this)"><span class="dash-nav-icon">💬</span>Playground</button>
